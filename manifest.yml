@@ -9,3 +9,5 @@ applications:
   services:
   - Cloudant
   timeout: 180
+env:
+  services_autoconfig_excludes: cloudantNoSQLDB=config
