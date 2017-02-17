@@ -4,7 +4,7 @@ declared-services:
         plan: Lite
 applications:
 - name: myLibertyProject
-  memory: 128M
+  memory: 512M
   instances: 1
   services:
   - Cloudant
