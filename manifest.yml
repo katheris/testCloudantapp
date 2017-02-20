@@ -6,6 +6,9 @@ applications:
 - name: myLibertyProject
   memory: 512M
   instances: 1
+  random-route: true
+  buildpack: java_buildpack
+  command: myLibertyProject --bind 0.0.0.0:$PORT
   services:
   - Cloudant
   timeout: 180
